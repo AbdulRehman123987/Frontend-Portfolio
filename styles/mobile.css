@@ -1,0 +1,269 @@
+@media only screen and (min-width:280px) and (max-width:420px){
+ul{
+    display:none;
+}
+.navbar>button{
+    font-size: 1rem;
+}
+.section_one_cover{
+    flex-direction: column;
+}
+    
+.hero_text{
+    width:100%;
+    padding:2rem 2rem;
+}
+.buttons{
+    width: 100%;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+}
+.btnOne{
+    width: 100%;
+}
+.btnTwo{
+    width: 100%;
+}
+.section_one_footer{
+    width:100%;
+    color: var(--white);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.section_one_footer>div>h1{
+    display: none;
+}
+
+
+.section_two{
+    width: 80%;
+    padding:4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_two>h5{
+    font-size: 1rem;
+}
+.section_two>h1{
+    font-size:1.5rem;
+}
+.sec_two_slider{
+    width:100%;
+    margin-top: 1rem;
+    padding:0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.itm_cover{
+    padding:1rem;
+    /* margin-left: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.itm>h1{
+    color: var(--blue);
+}
+.itm>img{
+    width: 200px;
+}
+
+.section_three{
+    margin-bottom:2rem;
+    padding:2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.sec_three_box{
+    width:200px;
+    height:150px;
+}
+
+.sec_four{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.sec_four>h1{
+    font-size:1.5rem;
+}
+.project_list{
+    width:100%;
+}
+.project{
+    width: 100%;
+    padding:0px;
+    margin-bottom:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid var(--boxcolor);
+    border-radius: 10px;
+    background-color: var(--boxcolor);
+}
+.project>img{
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    width:75px;
+}
+.project>span{
+    font-size:0.9rem;
+    font-weight:normal;
+}
+.project>button{
+    font-size:0.6rem;
+    padding:10px;
+}
+.more_project{
+    width: 100%;
+    height:auto;
+    width: 100%;
+    padding:10px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.btn>button{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section_five{
+    padding:2rem 0rem;
+    gap: 1rem;
+}
+.section_five>h1{
+    font-size: 2.5rem;
+}
+.sec_five_grid{
+    flex-direction: column;
+}
+.txt>h1{
+    font-size: 2rem;
+}
+
+.section_six{
+    width: 100%;
+    padding:0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.sec_six_txt{
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.sec_six_txt>h4{
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+.sec_six_txt>h1{
+    font-size:1.4rem;
+    font-weight: bold;
+}
+.sec_six_bar{
+    width: 100%;
+    padding:1rem 0rem;
+}
+.slider_cover{
+    width:70%;
+    height:200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.slide_cover{
+    width: 100%;
+    height:auto;
+}
+.slider_cover>img{
+    display: block;
+    cursor: pointer;
+}
+.slide{
+    width:100%;
+    height: auto;
+    display: flex;
+}
+.slide_img{
+    display: none;
+}
+.slide_img_cover{
+    display: none;
+}
+.slide_img_cover>img{
+    display: none;
+}
+.slide_txt{
+    width:100%;
+    height:200px;
+    padding:0.3rem 0.5rem;
+    margin-left: 10px;
+}
+.slide_txt>h1{
+    font-size: 1rem;
+    margin-top:5px;
+    font-weight: bold;
+    color: var(--blue);
+}
+.slide_txt>p{
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+
+.section_seven{
+    padding:2rem 0rem;
+    gap: 1rem;
+}
+.section_seven>h1{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.sec_seven_box>img{
+    width:60px;
+}
+
+.footer_txt{
+    width:100%;
+    padding:1rem 3rem;
+}
+.footer_txt>h1{
+    margin-bottom: 10px;
+}
+.contacts{
+    margin-top: 10px;
+}
+.footer_design{
+    display: none;
+}
+}
