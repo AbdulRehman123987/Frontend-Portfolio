@@ -26,7 +26,7 @@ A responsive and interactive frontend portfolio website built with **HTML**, **C
 
 ## 📸 Screenshots
 
-![Thumbnail](./Assets/Portfolio.png)  
+![Thumbnail](./Asset/Portfolio.png)  
 ---
 
 ## 📬 Contact
